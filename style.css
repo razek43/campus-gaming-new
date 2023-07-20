@@ -280,7 +280,7 @@ nav li:hover {
 
 }
 
-footer::before {
+.main-bottom::before {
     content:"";
     width: 60%;
     height: 1px;
@@ -293,7 +293,7 @@ footer::before {
 
 }
 
-footer {
+.main-bottom {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -301,9 +301,32 @@ footer {
     padding: 20px;
 }
 
-footer .right-part {
+.main-bottom .right-part {
     display: flex;
     align-items: center;
     width: 60%;
     justify-content: space-around;
+}
+
+footer {
+    background: rgb(20, 19, 19);
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+ 
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 120px;
 }
